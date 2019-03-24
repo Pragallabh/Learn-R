@@ -1,0 +1,23 @@
+pmin()
+pmax()
+how to call the location of the variable input
+
+##why won't this work
+temp =  a != c(13,1,20)
+
+2.5 Missing values #Page 15 of book
+
+##why is space present when we remove (sep)
+CASE I 
+labs <- paste(c("X","Y"), 1:10, sep="")
+ans= "X1"  "Y2"  "X3"  "Y4"  "X5"  "Y6"  "X7"  "Y8"  "X9"  "Y10"
+
+CASE II
+labs <- paste(c("X","Y"), 1:10)
+ans= "X 1"  "Y 2"  "X 3"  "Y 4"  "X 5"  "Y 6"  "X 7"  "Y 8"  "X 9"  "Y 10"          ## Page 16 of book
+
+##How to write a function for Character(0), I tried this
+a <- c(11, 22, 33, 44)
+name (a) <- c("apple", "peach", "banana", "guava")
+lunch <- a[-c(1,2,3,4)]                                                             ## Gives numeric(0)
+lunch <- a[-c("apple", "peach", "banana", "guava")]                                 ## Shows invalid argument   
