@@ -1,16 +1,16 @@
-pmin()
-pmax()
+pmin()                                                        
+pmax()                                                                             ## how to call these two functions and what's the need?                    
+
 how to call the location of the variable input
 
-##why won't this work
-temp =  a != c(13,1,20)
+a = 1:30
+temp =  a != c(13,1,20)                                                            ##why won't this work correctly
 
-2.5 Missing values #Page 15 of book
+2.5 Missing values                                                                 ##Page 15 of book
 
-##why is space present when we remove (sep)
 CASE I 
 labs <- paste(c("X","Y"), 1:10, sep="")
-ans= "X1"  "Y2"  "X3"  "Y4"  "X5"  "Y6"  "X7"  "Y8"  "X9"  "Y10"
+ans= "X1"  "Y2"  "X3"  "Y4"  "X5"  "Y6"  "X7"  "Y8"  "X9"  "Y10"                   ##why is space present when we remove (sep)
 
 CASE II
 labs <- paste(c("X","Y"), 1:10)
